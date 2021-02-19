@@ -1,0 +1,99 @@
+body
+{
+    margin: 0;
+    background-color: lightgray;
+    font-family: sans-serif;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+.dos, .tres, .cuatro, .cinco
+{
+    width: 40vw;
+    height: 28vh;
+}
+
+.uno
+{
+    background-color: #FFD580;
+    border: 2px solid #7D6536;
+    width: 80vw;
+    height: 10vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dos
+{
+    background-color: #FFFF80;
+    border: 4px solid #D6D643;
+}
+
+.dos:hover
+{
+    z-index: 30;
+}
+
+.tres
+{
+    background-color: #CCFFFF;
+    border: 4px solid #9FC6C6;
+    text-align: right;
+}
+
+.tres:hover
+{
+    z-index: 30;
+}
+
+.cuatro
+{
+    background-color: #FFE6FF;
+    border: 4px solid #BEA7BE;
+}
+
+.cuatro:hover
+{
+    z-index: 30;
+}
+
+.cinco
+{
+    background-color: #FFB3B3;
+    border: 4px solid #846262;
+    text-align: right;
+}
+
+.cinco:hover
+{
+    z-index: 30;
+}
+
+.centro
+{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    background-color: #80FF80;
+    border: 4px solid #367D36;
+    width: 40vw;
+    height: 37vh;
+    z-index: 10;
+}
